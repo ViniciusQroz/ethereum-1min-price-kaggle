@@ -13,9 +13,9 @@ Easy Deployment: Minimal configuration is required to start updating your Kaggle
 
 Before running the workflow, you need to define two secret variables in your GitHub repository:
 
-API_KEY – Your Bitstamp API key.
+API_KEY – Your Kaggle API key.
 
-KAGGLE_USERNAME – Your Kaggle username (or API token).
+KAGGLE_USERNAME – Your Kaggle username.
 
 # How it Works
 
