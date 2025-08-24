@@ -2,9 +2,8 @@ name: Update Kaggle Dataset
 
 on:
   schedule:
-    # Runs every day at 00:00 UTC
-    - cron: "0 0 * * *"
-  workflow_dispatch:  # allow manual trigger
+    - cron: "0 0 * * *"  # every day at 00:00 UTC
+  workflow_dispatch:  # manual trigger
 
 jobs:
   update-dataset:
@@ -28,4 +27,4 @@ jobs:
         env:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.API_KEY }}
-        run: python update_eth_data.py
+        run: python scripts/update_eth_data.py
