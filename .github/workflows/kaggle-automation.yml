@@ -1,4 +1,4 @@
-name: Update Kaggle Dataset
+name: Update Ethereum 1-min Kaggle Dataset
 
 on:
   schedule:
