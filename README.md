@@ -33,6 +33,6 @@ The CSV file contains 1-minute interval OHLC Ethereum price data, with Unix time
 
 Kaggle link: https://www.kaggle.com/datasets/viniciusqroz/ethereum-historical-data
 
-#Usage
+# Usage
 
 Once the GitHub Actions workflow is configured and the secrets are set, no manual intervention is needed. The dataset on Kaggle will stay up to date automatically.
