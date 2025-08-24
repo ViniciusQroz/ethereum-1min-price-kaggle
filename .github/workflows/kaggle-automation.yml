@@ -28,4 +28,4 @@ jobs:
         env:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.API_KEY }}
-        run: python your_script.py
+        run: python update_eth_data.py
