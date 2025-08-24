@@ -27,5 +27,5 @@ jobs:
       - name: Run update script
         env:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
-          KAGGLE_KEY: ${{ secrets.KAGGLE_API_KEY }}
+          KAGGLE_KEY: ${{ secrets.API_KEY }}
         run: python your_script.py
