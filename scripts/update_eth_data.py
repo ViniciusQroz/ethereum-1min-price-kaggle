@@ -127,7 +127,7 @@ if __name__ == "__main__":
         # Push update to Kaggle
         update_kaggle_dataset(
             dataset_slug=dataset_slug,
-            foalder_path=upload_dir,
+            folder_path=upload_dir,
             version_notes=f"Dataset updated on {time.strftime('%Y-%m-%d %H:%M:%S')}"
         )
     else:

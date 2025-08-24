@@ -1,3 +1,6 @@
 fetch_eth_historical_data.ipynb
 fetch_eth_data.ipynb
 ethusd_1min_ohlc.csv
+venv/
+temp_upload/
+temp_download/
